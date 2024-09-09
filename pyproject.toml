@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vocex"
+version = "0.1"
+authors = [{name="Author", email="fake_author@hum.leidenuniv.nl"}]
+description = "Vocabulary extraction tool (minimal course example project)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+vocex = "main:main"
+
+[project.urls]
+"Homepage" = "https://github.com/leidennlp/vocex"
+"Bug Tracker" = "https://github.com/leidennlp/vocex/issues"
