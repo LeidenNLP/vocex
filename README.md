@@ -12,10 +12,9 @@ pip install git+https://github.com/leidennlp/vocex
 
 `pip` will install this program in the currently active Python environment, which can sometimes be what you want; the `vocex` command will be available whenever that environment is activated.
 
-However, for tools that you intend to use regardless of virtual environment, it is advisable to use `pipx`:
+However, for tools that you intend to use regardless of virtual environment, it is advisable to use `pipx`. First install `pipx` itself, see [these instructions](https://github.com/pypa/pipx). Then you can do:
 
 ```bash
-pip install pipx # <- necessary only if pipx it isn't installed yet
 pipx install git+https://github.com/leidennlp/vocex
 ```
 
