@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-
 import sys
+import wordcloud    # not actually used; only meant to illustrate how dependencies work
 
 """
 Read a text.
@@ -9,7 +8,7 @@ Extract its vocabulary.
 Output the vocabulary.
 """
 
-def main():
+def cli():
     text = sys.stdin.read()
     tokens = text.lower().split()
     vocab = set(tokens)
@@ -18,5 +17,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    cli()
 
